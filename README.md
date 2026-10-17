@@ -169,7 +169,7 @@ The combined pipeline illustrates a practical application of vision-language mod
 
 - `LAB — Vision-Language Models: CLIP & LLaVA.ipynb` — Jupyter notebook containing the experiments, code, outputs, and analysis.
 - `README.md` — Project overview, methodology, results, and conclusion.
-
+- - `dataset.zip` — The dataset used.
 ## Notes
 
 This project was developed for educational purposes. Reported metrics correspond to the specific experiments described in the notebook and do not establish general model performance.
