@@ -35,9 +35,13 @@ LLaVA combines a vision encoder with a large language model to generate natural-
 
 ## Dataset
 
-The experiments use a collection of images stored in a local directory. The dataset contains examples of animals, people, vehicles, and other visual content.
+The dataset used in this project is provided as a ZIP archive (`dataset.zip`) containing the images used in the experiments.
 
-The images are loaded and processed using the corresponding model processors. No model fine-tuning is performed; the experiments use pretrained models.
+The archive was created to organize the image collection used for CLIP classification, text-based image retrieval, and LLaVA visual question answering.
+
+To use the dataset, download `dataset.zip` from this repository and extract its contents into a local directory. Update the `IMAGE_DIR` variable in the notebook to point to the extracted image folder.
+
+The dataset contains the images used in the reported experiments. The results and evaluation metrics are documented in the notebook.
 
 ## Experiments and Results
 
